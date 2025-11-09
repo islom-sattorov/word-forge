@@ -25,7 +25,7 @@ export interface Verb {
 	past: string;
 	participle: string;
 	translation: string;
-	difficulty: "common" | "medium" | "rare";
+	difficulty: "easy" | "medium" | "hard";
 	examples?: string[];
 }
 
